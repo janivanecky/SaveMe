@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Time.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Survivor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp" />
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Worm.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Fuel.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="PauseScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryScreen.cpp">
+      <Filter>Screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Ship.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Survivor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Enviroment.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Generating.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Worm.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuel.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryScreen.h">
+      <Filter>Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{e61c2b74-cf14-4427-a662-c94440640632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{1c5256dc-1440-4025-b93a-ffde9cb755c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screens">
+      <UniqueIdentifier>{811ad4e2-f369-4802-a8d9-3de044147a07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
